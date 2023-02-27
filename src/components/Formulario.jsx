@@ -85,7 +85,7 @@ const Formulario = ({crearCita}) => {
                 <label>Fecha</label>
                 <input 
                     type="date"
-                    name="fecha"
+                    name="fecha"    
                     className="u-full-width"
                     onChange={handleChange}
                     value={fecha}
