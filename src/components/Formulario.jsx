@@ -110,7 +110,7 @@ const Formulario = ({crearCita}) => {
 
                 <button
                     type="submit"
-                    className="u-full-width button-primary"
+                    className="u-full-width agregarCita"
                 >Agregar Cita</button>
             </form>
         </Fragment>

@@ -22,7 +22,7 @@ function App() {
   const titulo = citas.length === 0 ? 'No hay citas' : 'Administra tus Citas';
 
   return (
-    <Fragment>
+    <Fragment className='app'>
       <h1>Administrador de Pacientes</h1>
 
       <div className="container">
