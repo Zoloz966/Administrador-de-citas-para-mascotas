@@ -1,6 +1,15 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useState} from 'react';
 
 const Formulario = () => {
+
+    const [cita, actualizarCita] = useState ({
+        mascota: '',
+        propietario: '',
+        fecha: '',
+        hora: '',
+        sintomas: '',
+    })
+
     return (
         <Fragment>
             <h2>Crear Cita</h2>
@@ -12,6 +21,7 @@ const Formulario = () => {
                     name='mascota'
                     className='u-full-width'
                     placeholder='Nombre Macota'
+                    onChange={handleChange}
                 />
                 <label>Nombre Dueño</label>
                 <input 
